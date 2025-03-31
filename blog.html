@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AshTech Edu</title>
+    <link rel="stylesheet" href="style.css ">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/6831ddf728.js" ></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navigation -->
+
+    <nav> 
+        <img src="/Images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i class="fa-solid fa-circle-xmark" id="menu-close"></i>
+
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img src="Images/menu1.png" id="menu-btn" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+     <section id="about-home">
+        <h2>Blog/</h2>
+       
+     </section>
+     <section id="blog-container">
+        <div class="blogs">
+        <div class="post">
+            <img src="Images/blog3.jpeg" alt="">
+            <h3>Learn Web Development In the Easiest Way</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex incidunt cumque nostrum dolores, exercitationem sit hic quod voluptas voluptates rem ratione aut mollitia quos alias reiciendis molestias quia eum recusandae?</p>
+            <a  href="post.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="Images/blog4.jpeg" alt="">
+            <h3>Learn Web Development In the Easiest Way</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex incidunt cumque nostrum dolores, exercitationem sit hic quod voluptas voluptates rem ratione aut mollitia quos alias reiciendis molestias quia eum recusandae?</p>
+            <a href="post2.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="Images/blog5.jpeg" alt="">
+            <h3>Learn Web Development In the Easiest Way</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex incidunt cumque nostrum dolores, exercitationem sit hic quod voluptas voluptates rem ratione aut mollitia quos alias reiciendis molestias quia eum recusandae?</p>
+            <a href="post3.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="Images/blog6.jpeg" alt="">
+            <h3>Learn Web Development In the Easiest Way</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex incidunt cumque nostrum dolores, exercitationem sit hic quod voluptas voluptates rem ratione aut mollitia quos alias reiciendis molestias quia eum recusandae?</p>
+            <a href="post4.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="Images/blog1.jpeg" alt="">
+            <h3>Learn Web Development In the Easiest Way</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex incidunt cumque nostrum dolores, exercitationem sit hic quod voluptas voluptates rem ratione aut mollitia quos alias reiciendis molestias quia eum recusandae?</p>
+            <a href="post5.html">Read More</a>
+        </div>
+    </div>
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Web Development</a>
+            <hr>
+            <a href="#">Web Design</a>
+            <hr>
+            <a href="#">App Development</a>
+            <hr>
+            <a href="#">Frontend Web</a>
+            <hr>
+            <a href="#">Javascript Hack</a>
+            <hr>
+            <a href="#">Python Development</a>
+            <hr>
+        </div>
+     </section>
+
+
+
+   
+        <!-- footerr -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputations</li>
+                <li>Power Tools</li>
+                <li>Manage Websites</li>
+                <li>Marketing Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relations</li>
+                <li>Terms of Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputations</li>
+                <li>Power Tools</li>
+                <li>Manage Websites</li>
+                <li>Marketing Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>NewsLetter</h3>
+                <p>You can trust us. we only send promo offers</p>
+                <div class="subscribe">
+                    <input type="email"   placeholder="Enter Your Email Address">
+                    <a href="#" class="yellow ">SUBSCRIBE</a>
+                 </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 AshTech Edu. All Rights Reserved</p>
+                <div class="pro-links">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+            </div>
+        </footer>
+
+        <script >
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active');
+            });
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active');
+            });
+        </script>
+
+</body>
+</html> 
